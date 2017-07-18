@@ -1,0 +1,23 @@
+
+<div id="outer-wrap">
+    <div id="arrow-button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></div>
+    <div class="list ">
+        <div class="test" ng-repeat="card in $ctrl.cards">
+            <a href="#">
+                <div class="image thumbnail">
+                    <img ng-src="{{card.image}}">
+                </div>
+            </a>
+            <div class="container">
+                <h4>{{card.name}}</h4>
+                <h6>seller: nearneeds</h6>
+                <button class="btn btn-sm btn-primary">Add to cart</button>
+                <button class="btn btn-sm btn-warning">Buy Now</button>
+
+
+            </div>
+    </div>
+    <div id="left"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+    </div>
+</div>
+</div>
